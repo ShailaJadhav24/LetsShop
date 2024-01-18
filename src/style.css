@@ -1,0 +1,435 @@
+/* Header */
+
+.header {
+    border-bottom: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-menu>a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* Login */
+.login {
+    display: flex;
+}
+
+.loginLeftPanel {
+    width: 60%;
+    background-image: url("./assets/images/login.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.loginRightPanel {
+    width: 40%;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+
+}
+
+.loginText {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.marginTop10px {
+    margin-top: 10px;
+}
+
+/* Signup */
+.signup {
+    display: flex;
+}
+
+.signupLeftPanel {
+    width: 60%;
+    background-image: url("./assets/images/login.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.signupRightPanel {
+    width: 40%;
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+
+}
+
+.signupText {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px;
+}
+
+.btnBackgroundNone {
+    background-color: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px;
+}
+
+/* Page Not Found */
+.pageNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    flex-direction: column;
+}
+
+.backHomebtn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.contactLeftPanel {
+    width: 40%;
+    text-align: left;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactRightPanel {
+    width: 60%;
+    margin: 10px;
+    padding: 47px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactText {
+    border: none;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 100%;
+}
+
+.contactTextArea {
+    border: none;
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+.redButton {
+    background-color: red;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.width33 {
+    width: 33.33%;
+}
+
+.paddingmargin10 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.containerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.normalAnchor {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Account */
+.accountLeftPanel {
+    width: 30%;
+    height: 400px;
+}
+
+.textDecor {
+    list-style: none;
+    margin: 10px;
+}
+
+
+.accountPadding {
+    padding: 10px;
+}
+
+
+.form-group {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.form-group label {
+    width: 250px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.form-group input {
+    flex: 1;
+    height: 30px;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 100%;
+    background-color: rgb(200, 198, 198);
+    border: none;
+}
+
+.input-label-section {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+form {
+    width: 100%;
+
+
+}
+
+.accountRightPanel {
+    width: 70%;
+    margin: 10px;
+    padding: 47px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.containerAccount {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+    margin-top: 50px;
+}
+
+/* Billing details */
+
+
+/* Home */
+
+.redSection {
+    color: red;
+    border-left: 5px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.redSection>h5 {
+    margin: 10px;
+}
+
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#flashSales {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.flashSalesProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.flashSalesProducts>.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    font-family: arial;
+}
+
+.flashSalesProducts>.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.flashSalesProducts>.card>.imgWrapper {
+    height: 150px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+}
+
+.flashSalesProducts>.card>.productDetailsWrapper {
+    margin-left: 10px;
+}
+
+.flashSalesProducts>.card>.imgWrapper>img {
+    height: 150px;
+    width: 80%;
+    object-fit: contain;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.flashSalesProducts>.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.flashSalesProducts>.card button:hover {
+    opacity: 0.7;
+}
+
+.textDecorLine {
+    text-decoration-line: line-through;
+}
+
+
+/* Breadcrumb */
+.breadCrumbContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.homeLeftPanel {
+    width: 30%;
+
+}
+
+.homeRightPanel {
+    width: 60%;
+}
+
+.liMargin {
+    margin: 15px 0px;
+}
+
+.box {
+    width: 150px;
+    border: 1px solid black;
+}
+
+.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.categoryContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.AppHeader {
+    margin: 15px 0px;
+}
+
+.aboutContainer {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutLeftPanel {
+    width: 50%;
+}
+
+.aboutRightPanel {
+    width: 50%;
+}

@@ -1,0 +1,10 @@
+export { default as one } from './one.png';
+export { default as two } from './two.png';
+export { default as three } from './three.png';
+export { default as four } from './four.png';
+export { default as five } from './five.png';
+export { default as six } from './six.png';
+export { default as seven } from './seven.png';
+export { default as eight } from './eight.png';
+export { default as three } from './three.png';
+export { default as iphonebanner } from './iphonebanner.png';
